@@ -8,7 +8,7 @@
 import React from 'react';
 import {SafeAreaView} from 'react-native';
 
-import MainScreen from './app/shared/components/testFile';
+import HomeScreen from './app/screens/HomeScreen';
 
 function App(): React.JSX.Element {
   const backgroundStyle = {
@@ -17,7 +17,7 @@ function App(): React.JSX.Element {
 
   return (
     <SafeAreaView style={backgroundStyle}>
-      <MainScreen />
+      <HomeScreen />
     </SafeAreaView>
   );
 }

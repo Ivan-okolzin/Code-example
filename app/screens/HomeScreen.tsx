@@ -4,7 +4,7 @@ import {LineChart} from 'react-native-svg-charts';
 import WebSocketService from '../utils/webSocketService';
 import styles from '../styles/styles';
 
-export default function MainScreen() {
+export default function HomeScreen() {
   const [priceData, setPriceData] = useState([]);
   const [isConnected, setIsConnected] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
